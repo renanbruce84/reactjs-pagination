@@ -27,7 +27,7 @@ export default function Pagination({
   //   Faz a montagem dos produtos que devem ser mostrados na página atual
   const Products = (
     <ProductCardContainer>
-      {/* Se tiver a manualQuantit */}
+      {/* Se tiver a manualAmount */}
       {!manualAmount
         ? allItems
             .filter(
