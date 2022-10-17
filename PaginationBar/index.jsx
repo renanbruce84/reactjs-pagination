@@ -63,7 +63,6 @@ export default function PaginationBar({
     <Navigation>
       <Link
         to={previousPage}
-        onClick={scrollToTop}
         disable={currentPage > 1 ? +false : +true}
         arrow={+true}
       >
@@ -86,7 +85,6 @@ export default function PaginationBar({
       {/* Next Page */}
       <Link
         to={nextPage}
-        onClick={scrollToTop}
         disable={currentPage < totalPages ? +false : +true}
         arrow={+true}
       >
